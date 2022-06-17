@@ -1,0 +1,20 @@
+...header. tpl -> gives title to the page title
+
+...header.php include smarty files
+    and its object 
+
+...userDashboard.php -> include header.php
+                                navbar.php
+                                allProducts.php
+
+...navbar.php -> require header
+                 check -> isset cookies
+                 display in navbar.tpl
+
+..if login is checked  you will get the all
+  model object and user variable
+
+
+Controller do not communicate with each other
+
+
