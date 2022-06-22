@@ -1,0 +1,21 @@
+{
+    "name": "prakhar/dailycart3",
+    "description": "xyz",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "smarty/smarty": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prakhar\\Dailycart3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prakhar Sharma",
+            "email": "prakhar.infinity@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

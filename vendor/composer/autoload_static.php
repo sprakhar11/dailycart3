@@ -6,6 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit981378883baa316894c6a8f2718779f4
 {
+    public static $prefixLengthsPsr4 = array (
+        'P' => 
+        array (
+            'Prakhar\\Dailycart3\\' => 19,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Prakhar\\Dailycart3\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Smarty' => __DIR__ . '/..' . '/smarty/smarty/libs/Smarty.class.php',
@@ -182,6 +196,8 @@ class ComposerStaticInit981378883baa316894c6a8f2718779f4
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit981378883baa316894c6a8f2718779f4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit981378883baa316894c6a8f2718779f4::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit981378883baa316894c6a8f2718779f4::$classMap;
 
         }, null, ClassLoader::class);

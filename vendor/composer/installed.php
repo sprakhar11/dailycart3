@@ -2,21 +2,21 @@
     'root' => array(
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'type' => 'library',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a5bf1c204e78120673edf4f415c2f8d127dd6ede',
-        'name' => '__root__',
+        'reference' => '0d809329292fbf1a8ec3080acef17e14e3ce73de',
+        'name' => 'prakhar/dailycart3',
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'prakhar/dailycart3' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'type' => 'library',
+            'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a5bf1c204e78120673edf4f415c2f8d127dd6ede',
+            'reference' => '0d809329292fbf1a8ec3080acef17e14e3ce73de',
             'dev_requirement' => false,
         ),
         'smarty/smarty' => array(
